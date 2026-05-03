@@ -525,7 +525,7 @@ def main():
     win = ProgramLauncher()
     app.aboutToQuit.connect(win._persist_settings)
     win.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
 
 
 if __name__ == "__main__":
