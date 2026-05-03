@@ -11,8 +11,8 @@ try:
     _yaml = importlib.import_module("yaml")
 except Exception:
     _yaml = None
-from PyQt5.QtGui import QColor, QIcon, QPalette
-from PyQt5.QtWidgets import (
+from PySide6.QtGui import QColor, QIcon, QPalette
+from PySide6.QtWidgets import (
     QApplication,
     QComboBox,
     QFrame,
@@ -28,7 +28,7 @@ from PyQt5.QtWidgets import (
     QWidget,
 )
 
-os.environ["QT_API"] = "PyQt5"
+os.environ["QT_API"] = "pyside6"
 
 LugwitToolDir = os.environ.get("LugwitToolDir", "")
 if LugwitToolDir:

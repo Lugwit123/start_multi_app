@@ -8,7 +8,7 @@ authors = ["Lugwit Team"]
 requires = [
     "python-3.12+<3.13",
     "Lugwit_Module",
-    "pyqt5",
+    "pyside6",
 ]
 
 build_command = False
