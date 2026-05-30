@@ -4,6 +4,7 @@ kill_programs:
   - cursor.exe
   - deadlineworker.exe
   - dingtalk.exe
+  - explorer.exe
   - Houdini.exe
   - lugwit_chatroom.exe
   - lugwit_python.exe
@@ -40,4 +41,6 @@ common_programs:
   - 3dsmax.exe
   - deadlineworker.exe
   - python.exe
-program_usage_counts: {}
+  - explorer.exe
+program_usage_counts:
+  explorer.exe: 1
